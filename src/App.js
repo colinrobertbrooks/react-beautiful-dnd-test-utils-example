@@ -103,10 +103,7 @@ class App extends React.Component {
       <DragDropContext onDragEnd={this.onDragEnd}>
         <Droppable droppableId="board" direction="horizontal" type="COLUMN">
           {provided => (
-            <Container
-              innerRef={provided.innerRef}
-              {...provided.droppableProps}
-            >
+            <Container ref={provided.innerRef} {...provided.droppableProps}>
               {this.state.columnOrder.map((columnId, index) => {
                 const column = this.state.columns[columnId];
 

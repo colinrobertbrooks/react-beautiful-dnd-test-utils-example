@@ -49,9 +49,12 @@ export default class Column extends React.Component {
       <Draggable draggableId={this.props.column.id} index={this.props.index}>
         {(provided, snapshot) => (
           <Container
-            innerRef={provided.innerRef}
+            ref={provided.innerRef}
             isDragging={snapshot.isDragging}
             {...provided.draggableProps}
+            data-testid={`${this.props.column.title
+              .toLowerCase()
+              .replace(/\s/g, '-')}-column`}
           >
             <Title
               {...provided.dragHandleProps}
@@ -62,7 +65,7 @@ export default class Column extends React.Component {
             <Droppable droppableId={this.props.column.id} type="TASK">
               {(provided, snapshot) => (
                 <TaskList
-                  innerRef={provided.innerRef}
+                  ref={provided.innerRef}
                   {...provided.droppableProps}
                   isDraggingOver={snapshot.isDraggingOver}
                 >
