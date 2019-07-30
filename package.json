@@ -11,16 +11,16 @@
   "dependencies": {
     "@atlaskit/css-reset": "^2.0.0",
     "react": "^16.8.6",
-    "react-beautiful-dnd": "^11.0.2",
+    "react-beautiful-dnd": "^11.0.5",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.3.2"
   },
   "devDependencies": {
     "@babel/polyfill": "^7.4.4",
-    "@testing-library/react": "^8.0.1",
-    "jest-dom": "^3.2.2",
-    "react-beautiful-dnd-test-utils": "^1.1.0"
+    "@testing-library/jest-dom": "^4.0.0",
+    "@testing-library/react": "^8.0.7",
+    "react-beautiful-dnd-test-utils": "^2.0.0"
   },
   "browserslist": {
     "production": [
