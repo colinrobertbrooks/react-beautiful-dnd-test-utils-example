@@ -9,18 +9,18 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@atlaskit/css-reset": "^2.0.0",
-    "react": "^16.8.6",
-    "react-beautiful-dnd": "^11.0.5",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0",
-    "styled-components": "^4.3.2"
+    "@atlaskit/css-reset": "^5.0.9",
+    "react": "^16.11.0",
+    "react-beautiful-dnd": "^12.0.0",
+    "react-dom": "^16.11.0",
+    "styled-components": "^4.4.1"
   },
   "devDependencies": {
-    "@babel/polyfill": "^7.4.4",
-    "@testing-library/jest-dom": "^4.0.0",
-    "@testing-library/react": "^8.0.7",
-    "react-beautiful-dnd-test-utils": "^2.0.0"
+    "@babel/polyfill": "^7.6.0",
+    "@testing-library/jest-dom": "^4.2.2",
+    "@testing-library/react": "^9.3.1",
+    "react-beautiful-dnd-test-utils": "^3.0.0",
+    "react-scripts": "^3.2.0"
   },
   "browserslist": {
     "production": [

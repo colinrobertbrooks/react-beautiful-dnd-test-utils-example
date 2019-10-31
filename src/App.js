@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
 import { DragDropContext, Droppable } from 'react-beautiful-dnd';
+import styled from 'styled-components';
 import Column from './Column';
 
 const Container = styled.div`
@@ -116,6 +116,7 @@ class App extends React.Component {
                   />
                 );
               })}
+              {provided.placeholder}
             </Container>
           )}
         </Droppable>
