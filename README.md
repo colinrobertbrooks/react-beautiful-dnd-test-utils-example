@@ -1,6 +1,6 @@
 # react-beautiful-dnd-test-utils-example
 
-A fork of the `working-board` branch of [react-beautiful-dnd-task-app](https://github.com/alexreardon/react-beautiful-dnd-task-app) tested with [react-beautiful-dnd-test-utils](https://github.com/colinrcummings/react-beautiful-dnd-test-utils).
+A fork of the `working-board` branch of [react-beautiful-dnd-task-app](https://github.com/alexreardon/react-beautiful-dnd-task-app) tested with [react-beautiful-dnd-test-utils](https://github.com/colinrobertbrooks/react-beautiful-dnd-test-utils).
 
 ---
 

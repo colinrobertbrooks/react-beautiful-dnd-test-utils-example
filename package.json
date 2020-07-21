@@ -1,6 +1,6 @@
 {
   "name": "react-beautiful-dnd-test-utils-example",
-  "version": "0.1.0",
+  "version": "3.2.1",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
@@ -9,18 +9,19 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@atlaskit/css-reset": "^5.0.9",
-    "react": "^16.11.0",
-    "react-beautiful-dnd": "^12.0.0",
-    "react-dom": "^16.11.0",
-    "styled-components": "^4.4.1"
+    "@atlaskit/css-reset": "^6.0.0",
+    "react": "^16.13.1",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
-    "@babel/polyfill": "^7.6.0",
-    "@testing-library/jest-dom": "^4.2.2",
-    "@testing-library/react": "^9.3.1",
-    "react-beautiful-dnd-test-utils": "^3.0.0",
-    "react-scripts": "^3.2.0"
+    "@babel/polyfill": "^7.10.4",
+    "@sheerun/mutationobserver-shim": "^0.3.3",
+    "@testing-library/jest-dom": "^5.11.1",
+    "@testing-library/react": "^10.4.7",
+    "react-beautiful-dnd-test-utils": "^3.2.1",
+    "react-scripts": "^3.4.1"
   },
   "browserslist": {
     "production": [
